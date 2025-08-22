@@ -1,9 +1,14 @@
-# ProductApp - Next.js 15 Assignment App
+# ProductApp 
 
 A simple **product management application** built with **Next.js 15 (App Router)** and **NextAuth.js**.  
 Users can browse products publicly and, after login, add new products via a protected dashboard.
 
 ---
+
+## Test Credentials
+
+- Email: test@test.com
+- Password: 123456
 
 ## ✅ Features
 
@@ -50,10 +55,7 @@ Users can browse products publicly and, after login, add new products via a prot
 
 ---
 
-## Test Credentials
 
-Email: test@test.com
-Password: 123456
 
 ## Getting Started
 
