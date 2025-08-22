@@ -50,33 +50,10 @@ Users can browse products publicly and, after login, add new products via a prot
 
 ---
 
-## 📁 Project Structure
+## Test Credentials
 
-app/
- ├─ api/
- │   ├─ auth/[...nextauth]/route.js    → NextAuth configuration (login, session)
- │   ├─ products/route.js              → GET all products, POST add product
- │   └─ products/[id]/route.js         → GET single product details
- ├─ dashboard/
- │   └─ add-product/page.jsx           → Protected add-product form
- ├─ products/
- │   ├─ page.jsx                        → Public product list
- │   └─ [id]/page.jsx                   → Product details
- ├─ login/page.jsx                      → Login page
- └─ page.jsx                            → Landing page
-
-components/
- ├─ Navbar.jsx                          → Navigation bar
- ├─ Footer.jsx                          → Footer section
- └─ AuthProvider.jsx                     → Auth context / session wrapper
-
-public/
- └─ ...                                → Static assets (images, icons, etc.)
-
-styles/
- └─ globals.css                         → Tailwind CSS & global styles
-
-.env.local                              → Environment variables for NextAuth
+Email: test@test.com
+Password: 123456
 
 ## Getting Started
 
